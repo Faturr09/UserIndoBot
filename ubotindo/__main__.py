@@ -63,10 +63,10 @@ from ubotindo.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = f"""
-Hey there! my name is *{dispatcher.bot.first_name}*.
-Any questions on how to use me? use /help
+Halo jamet! saya *{dispatcher.bot.first_name}*.
+Unruk pertanyaan lebih lanjut ketik /help
 
-Join Our [Group](https://t.me/userbotindo) If You wanna Report Issue 🙂
+Join di [Group](https://t.me/virtualchatID) Kalau ada yang jamet dan sange
 
 I'm here to make your group management fun and easy!
 I have lots of handy features ☺️ such as :
@@ -82,10 +82,10 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add to Group 👥", url="t.me/userbotindobot?startgroup=true"
+            text="Add to Group 👥", url="t.me/VirtualIDBot?startgroup=true"
         ),
         InlineKeyboardButton(
-            text="Gban Logs 🚫", url="https://t.me/UserIndoBotBannedLog"
+            text="Gban Logs 🚫", url="https://t.me/AngellifeBotlog"
         ),
     ]
 ]
@@ -98,7 +98,7 @@ buttons += [
             url=f"t.me/{dispatcher.bot.username}?start=help",
         ),
         InlineKeyboardButton(
-            text="Support Group 🎗️", url="https://t.me/userbotindo"
+            text="Support Group 🎗️", url="https://t.me/virtualchatID"
         ),
     ]
 ]

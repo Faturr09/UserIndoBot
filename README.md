@@ -14,9 +14,9 @@ A modular telegram Python bot running on python3 with sqlalchemy database.
 Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and
 simple to use. Note that this project uses a well-known Telegram-bot of its time @BanhammerMarie_bot from Paul Larson as its base.
 
-Can be found on telegram as [UserbotIndo](https://t.me/userbotindobot).
+Can be found on telegram as [𝐕𝐢𝐫𝐭𝐮𝐚𝐥 𝐂𝐡𝐚𝐭 𝐈𝐃 🇮🇩](https://t.me/virtualchatID).
 
-Join the [Group Support](https://t.me/userbotindo) if you just want to stay in the loop about new features or announcements.
+Join the [Group Support](https://t.me/virtualchatID) if you just want to stay in the loop about new features or announcements.
 
 
 ## NOTICE

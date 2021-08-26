@@ -44,7 +44,7 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 load_dotenv("config.env")
 
 CONFIG_CHECK = os.environ.get(
-    "_____REMOVE_____THIS_____LINE_____") or None
+    "") or None
 
 if CONFIG_CHECK:
     LOGGER.info(
@@ -53,10 +53,10 @@ if CONFIG_CHECK:
     sys.exit(1)
 
 TOKEN = os.environ.get("TOKEN")
-OWNER_ID = int(os.environ.get("OWNER_ID") or 0)
-MESSAGE_DUMP = os.environ.get("MESSAGE_DUMP") or None
-GBAN_LOGS = os.environ.get("GBAN_LOGS") or None
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME") or None
+OWNER_ID = int(os.environ.get("OWNER_ID") or "829363192")
+MESSAGE_DUMP = os.environ.get("MESSAGE_DUMP") or "-1001413126700")
+GBAN_LOGS = os.environ.get("GBAN_LOGS") or "-1001413126700")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME") or "hanyafatur")
 DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "").split())
 SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "").split())
 SUPPORT_USERS = set(

@@ -54,7 +54,7 @@ if CONFIG_CHECK:
 
 TOKEN = os.environ.get("TOKEN")
 OWNER_ID = int(os.environ.get("OWNER_ID") or "829363192")
-MESSAGE_DUMP = os.environ.get("MESSAGE_DUMP") or "-1001413126700")
+MESSAGE_DUMP = os.environ.get("MESSAGE_DUMP") or "-1001413126700"
 GBAN_LOGS = os.environ.get("GBAN_LOGS") or "-1001413126700"
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME") or "hanyafatur")
 DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "").split())
